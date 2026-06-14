@@ -3,7 +3,7 @@
 # Descricao: Atualiza o sistema do container fitness
 # Autor: Ana Martins | Tema: Plataforma de Treinos Online
 
-LOG_FILE="/app/fitness/logs/update.log"
+LOG_FILE="./update.log"
 
 atualizar_sistema() {
     echo "[date '+%Y-%m-%d %H:%M:%S'] Iniciando atualizacao do sistema..."

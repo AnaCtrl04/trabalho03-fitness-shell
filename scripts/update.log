@@ -1,0 +1,2 @@
+[date '+%Y-%m-%d %H:%M:%S'] Iniciando atualizacao
+./01_update.sh: line 12: apt: command not found

@@ -3,7 +3,7 @@
 # Descricao: Deploy do site FitPlatform no Apache
 
 ORIGEM="/app/source"
-DESTINO="/var/www/html"
+DESTINO="./www_html"
 LOG_FILE="/app/fitness/logs/deploy.log"
 
 realizar_deploy() {
