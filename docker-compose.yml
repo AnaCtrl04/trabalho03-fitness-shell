@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  fitness-linux:
+    build: .
+    container_name: trabalho03-linux
+    ports:
+      - "8080:80"
+    volumes:
+      - ./backups:/app/fitness/backups
+      - ./logs:/app/fitness/logs
+      - ./evidencias:/app/evidencias
+    stdin_open: true
+    tty: true

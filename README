@@ -1,0 +1,42 @@
+# Trabalho 03 - Linux, Shell Script e Cloud Computing
+
+## Aluno
+Ana Martins
+
+## Tema
+Plataforma de Treinos e Exercicios Online
+
+## Descricao do Projeto
+Ambiente Linux containerizado simulando a infraestrutura DevOps de uma
+plataforma de treinos online. Scripts Shell automatizam tarefas como
+atualizacao, deploy, backup, monitoramento e gestao de permissoes.
+
+## Tecnologias Utilizadas
+- Linux Ubuntu 22.04
+- Docker e Docker Compose
+- Apache2
+- Shell Script (Bash)
+- GitHub
+- DockerHub
+
+## Como Executar
+```
+git clone <url-do-repositorio>
+cd trabalho03-fitness-shell
+docker compose up -d --build
+docker exec -it trabalho03-linux bash
+cd /app/scripts
+chmod +x *.sh
+./menu.sh
+```
+
+## Acessar o Site
+http://localhost:8080
+
+## DockerHub
+https://hub.docker.com/r/anacarol004/fitness-devops
+
+## Uso de IA
+Utilizei o Claude (Anthropic) como apoio para estruturar os scripts e
+revisar a sintaxe Shell. Todos os scripts foram revisados, adaptados ao
+tema e testados manualmente no container.
